@@ -12,8 +12,8 @@ deploy:
     bucket_path: "docker-java"
     branch: master
     access_key_id:
-        secure: $AWS_ACCESS_KEY
+        secure: "AKIAQYIROKSH7VXOJUPS"
     secret_access_key:
-        secure: "$AWS_SECRET_KEY"
+        secure: "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"
     
     
