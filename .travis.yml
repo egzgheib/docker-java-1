@@ -2,3 +2,18 @@ language: generic
 sudo: required
 services:
     - docker
+    
+deploy:
+    provider: elasticbeanstalk
+    region: "ap-southeast-1"
+    app:    "docker-java"
+    env:    "DockerJava-env"
+    bucket_name: "elasticbeanstalk-ap-southeast-1-052113069199"
+    bucket_path: "docker-java"
+    on:
+       branch: master
+       access_key_id:  $AWS_ACCESS_KEY
+       secret_access_key: 
+       secure: "$AWS_SECRET_KEY"
+
+    
