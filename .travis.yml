@@ -11,8 +11,8 @@ deploy:
     bucket_name: "elasticbeanstalk-ap-southeast-1-052113069199"
     bucket_path: "docker-java"
     access_key_id:
-        secure: AKIAQYIROKSH74XRBWN5
+        secure: "AIDAQYIROKSHX6AJ2NZVT"
     secret_access_key:
-        secure: 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
+        secure: "$AWS_SECRET_KEY"
     
     
