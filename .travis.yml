@@ -10,8 +10,9 @@ deploy:
     env:    "DockerJava-env"
     bucket_name: "elasticbeanstalk-ap-southeast-1-052113069199"
     bucket_path: "docker-java"
+    branch: master
     access_key_id:
-        secure: "AIDAQYIROKSHX6AJ2NZVT"
+        secure: $AWS_ACCESS_KEY
     secret_access_key:
         secure: "$AWS_SECRET_KEY"
     
